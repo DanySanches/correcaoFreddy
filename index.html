@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecimentos de Sons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Edu+TAS+Beginner&family=Tinos:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class="col-xs-12 header_div">
+        <h5>Freddy fazbear pizza members controlled by sound!Welcome to Freddy Fazbear's Pizza. A magical place for kids
+            and grown-ups alike, where fantasy and fun come to life." Fazbear Entertainment is not responsible for
+            damage to property or person. Upon discovering that damage or death has occurred, a missing person report
+            will be filed within 90 days, or as soon property and premises have been thoroughly cleaned and bleached,
+            and the carpets have been replaced.</h5>
+        <p>Reproduze different sound for the animatronics get quirky at night</p>
+    </div>
+    <div class="main_div"><br>
+        <button class="btn btn-danger" onclick="startClassification()">Showtime</button>
+        <h3 id="result_label">I can hear you, I can see you...</h3>
+        <h4 id="result_confidence">It's me...</h4>
+        <br>
+        <img src="Withered_freddyvr.webp" id="Freddy" width="300" height="300">
+        <img src="Bonnie_Rabbit.webp" id="Bonnie" width="300" height="300">
+        <img src="Chica.png" id="Chica" width="300" height="300">
+        <img src="Withered_Foxy.webp" id="Foxy" width="300" height="300">
+    </div>
+    <div class="copy_right_footer">Developed by Fazbear Entertainment</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

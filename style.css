@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(167, 156, 3);
+    font-size: 12px;
+    font-family: 'Tinos', serif;
+}
+.header_div{
+    background-color: rgba(127, 0, 246, 0.661);
+    color: rgb(255, 255, 255);
+    font-family: 'Tinos', serif;
+}
+
+.header_div p{
+    color: rgba(242, 255, 56, 0.691);
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main_div button{
+margin-top: 30px;
+width: 130px;
+font-weight: bolder;
+letter-spacing: 3px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: rgb(20, 62, 250);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgba(253, 211, 0, 0.941);
+    line-height: 15px;
+    text-shadow: 5px 5px 5px rgb(rgb(153, 1, 255));
+}
